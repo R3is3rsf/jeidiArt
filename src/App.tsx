@@ -2,6 +2,14 @@ import { useState } from 'react'
 import img from './assets/image02.jpg'
 import wallpaper from './assets/wallpaper/v722-aum-35a.jpg'
 import 'bootstrap/dist/css/bootstrap.css';
+import { BsTwitter,BsFillCupFill,BsCheckLg,BsFillCartFill } from 'react-icons/bs';
+import {AiOutlineInstagram} from 'react-icons/ai'
+import {FaPaintBrush,FaDeviantart} from 'react-icons/fa'
+import {GrMail} from 'react-icons/gr'
+
+
+
+
 function App() {
   const objStyle = {
 
@@ -38,13 +46,14 @@ function App() {
                       Waitlist: OPEN
                       </span>
 
+                     <div><BsTwitter/> <AiOutlineInstagram/><FaPaintBrush/><BsFillCupFill/><FaDeviantart/></div>    
                   </div>
               </div>
               <hr/>
               <div className='d-flex justify-content-center'>
-                  <a href="#" className="btn btn-outline-dark me-2">T.O.S</a>
-                  <a href="#" className="btn btn-outline-dark me-2">Contact</a>
-                  <a href="#" className="btn btn-outline-dark me-2">Prices</a>
+                  <a href="#" className="btn btn-outline-dark me-2"><BsCheckLg/>T.O.S</a>
+                  <a href="#" className="btn btn-outline-dark me-2"><GrMail/>Contact</a>
+                  <a href="#" className="btn btn-outline-dark me-2"><BsFillCartFill/>Prices</a>
               </div>
               </div>
 
