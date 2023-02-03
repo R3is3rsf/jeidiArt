@@ -28,7 +28,7 @@ function App() {
         <div className="card col-auto h-75" >
            <div className='row vh-100 row justify-content-center  align-items-center'>
               <div className="card-body col-auto justify-content-center align-items-center">
-              <div className='d-flex justify-content-center text-secondary'>
+              <div className='d-flex flex-column flex-md-row justify-content-center text-secondary'>
 
                   <img className="d-flex card-img-top w-25 border border-2 rounded-circle me-4" src={img} alt="Card image cap"/>
                   <div className=''>
@@ -50,10 +50,10 @@ function App() {
                   </div>
               </div>
               <hr/>
-              <div className='d-flex justify-content-center'>
-                  <a href="#" className="btn btn-outline-dark me-2"><BsCheckLg/>T.O.S</a>
-                  <a href="#" className="btn btn-outline-dark me-2"><GrMail/>Contact</a>
-                  <a href="#" className="btn btn-outline-dark me-2"><BsFillCartFill/>Prices</a>
+              <div className='d-flex flex-column flex-md-row  justify-content-center'>
+                  <a href="#" className="btn btn-outline-dark me-5 me-lg-2"><BsCheckLg/>T.O.S</a>
+                  <a href="#" className="btn btn-outline-dark me-5 me-lg-2"><GrMail/>Contact</a>
+                  <a href="#" className="btn btn-outline-dark me-5 me-lg-2"><BsFillCartFill/>Prices</a>
               </div>
               </div>
 
